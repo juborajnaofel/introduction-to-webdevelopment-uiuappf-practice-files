@@ -1,0 +1,16 @@
+p {
+    color: aquamarine;
+    text-align: center;
+}
+#h1 {
+    color: blue;
+    text-align: center;
+}
+.btn {
+    background-color: crimson;
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 30px 20px;
+
+}

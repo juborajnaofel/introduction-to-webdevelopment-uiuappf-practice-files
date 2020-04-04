@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<h1>Form element</h1>
+        
+        <form action="actionpage.php" method="post">
+            <label for="textfield">This is a text field</label><br>
+            <input type="text" id="textfield" name="t" value="Hello" placeholder=""><br><br>
+            <label for="pass">This is a password field</label><br>
+            <input type="password" id="pass" name="p"><br><br>
+            
+            <input type="radio" name="radio1" value="1">
+            <input type="radio" name="radio1" value="2">
+            <input type="radio" name="radio1" value="3"><br><br>
+            
+            
+            <select id="drop" name="ddm" multiple>
+                <option value="Hello">Say hello</option>
+                <option value="Bye" selected>Say bye</option>
+            </select><br>
+            <br>
+            
+            <textarea rows="10" cols="40">Hello this is juboraj
+            </textarea>
+            <br>
+            <br>
+            
+            
+            <input type="submit">
+        </form>
+	</body>		
+</html>
